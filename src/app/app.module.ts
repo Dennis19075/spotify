@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Route } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
-  declarations: [
+  declarations: [ // declarations, components, directvies, pipes
     AppComponent
   ],
-  imports: [
+  imports: [ //only modules
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

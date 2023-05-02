@@ -1,0 +1,100 @@
+{
+    "data" : [
+        {
+            "_id": 1,
+            "name": "Daño medial",
+            "album": "Sigamos con los nombres bélicos",
+            "cover": "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/30/5e/df/305edf49-bbc5-7a06-c74d-287b6c5d5df3/artwork.jpg/400x400cc.jpg",
+            "artist": {
+                "name": "Saito Inosaka",
+                "nickname": "Saito Inosaka",
+                "nationality": "ES"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track.mp3"
+        },
+        {
+            "_id": 2,
+            "name": "Que se caerá",
+            "album": "Días de un tiempo atrás",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273640f50a06bfcd6749260b62b",
+            "artist": {
+                "name": "Saito Inosaka",
+                "nickname": "Saito Inosaka",
+                "nationality": "ES"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track-2.mp3"
+        },
+        {
+            "_id": 3,
+            "name": "sat leuv om",
+            "album": "sat leuv om",
+            "cover": "https://f4.bcbits.com/img/a4118357838_16.jpg",
+            "artist": {
+                "name": "Saito Inosaka",
+                "nickname": "Saito Inosaka",
+                "nationality": "ES"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track-3.mp3"
+        },
+        {
+            "_id": 4,
+            "name": "Los amigos que me esperan",
+            "album": "Los amigos que me esperan",
+            "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d5/f3/e2/d5f3e272-1fe5-8e27-b468-5c8379d9398f/artwork.jpg/486x486bb.png",
+            "artist": {
+                "name": "Saito Inosaka",
+                "nickname": "Saito Inosaka",
+                "nationality": "ES"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track-4.mp3"
+        },
+        {
+            "_id": 5,
+            "name": "café y pancito",
+            "album": "susurros",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273fc133cb620ea7ca755c847b0",
+            "artist": {
+                "name": "Saito Inosaka",
+                "nickname": "Saito Inosaka",
+                "nationality": "ES"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track-5.mp3"
+        },
+        {
+            "_id": 6,
+            "name": "hora espejo",
+            "album": "hora espejo",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273f11b02b877093532cd5a0cd8",
+            "artist": {
+                "name": "Saito Inosaka",
+                "nickname": "Saito Inosaka",
+                "nationality": "ES"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track-6.mp3"
+        }
+    ]
+}
