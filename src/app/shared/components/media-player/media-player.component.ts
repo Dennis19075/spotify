@@ -10,21 +10,22 @@ import { Observable, Subscription } from 'rxjs';
 })
 export class MediaPlayerComponent implements OnInit, OnDestroy {
 
-  mockCover: TrackModel = {
-    cover: 'https://f4.bcbits.com/img/a4118357838_16.jpg',
-    album: 'sat leuv om',
-    name: 'ajna',
-    url: 'https://localhost/track.1',
-    _id: '1'
-  }
 
   observerList: Array<Subscription> = [];
 
   constructor(
-    private _multimediaService: MultimediaService
+    public _multimediaService: MultimediaService
   ) { }
 
   ngOnInit(): void {
+
+    
+
+    // const observable1$ = this._multimediaService.myObservable1$
+    // .subscribe(
+    //   (resOk) => { console.log("EL AGUA LLEGA BIEN! C: ", resOk);},
+    //   (resFail) => {console.log("EL AGUA LLEGA MAL! :C ", resFail);}
+    // )
 
     const observer1$: Subscription = this._multimediaService.callback.subscribe(
       (res: TrackModel) => {
