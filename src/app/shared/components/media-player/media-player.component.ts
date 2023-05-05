@@ -10,7 +10,7 @@ import { Observable, Subscription } from 'rxjs';
 })
 export class MediaPlayerComponent implements OnInit, OnDestroy {
 
-
+  state: string = 'paused';
   observerList: Array<Subscription> = [];
 
   constructor(
@@ -19,6 +19,9 @@ export class MediaPlayerComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
 
+    const observer$ = this._multimediaService.playerStatus$
+      .subscribe(status => this.state = status);
+    this.observerList.push(observer$);
     
 
     // const observable1$ = this._multimediaService.myObservable1$
