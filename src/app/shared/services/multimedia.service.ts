@@ -117,4 +117,11 @@ export class MultimediaService {
     let progress = (currentTime * 100) / duration;
     this.playerProgressBar$.next(progress);
   }
+
+  public seekAudio(progressBar: number): void {
+    const {duration} = this.audio;
+    const progressToSecond = (progressBar * duration)/100;
+    this.audio.currentTime = progressToSecond;
+    
+  }
 }
